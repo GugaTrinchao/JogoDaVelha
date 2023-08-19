@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Velha</title>
+    <link rel="stylesheet" type="text/css" href="./jogoDaVelha.css">
+</head>
+<body>
+    <p id="titulo">Jogo Da Velha</p>
+    <div id="geral">
+    <div id="cima">
+    <button id="b1" class="botao" onclick="clicar('b1')"></button>
+    <button id="b2" class="botao" onclick="clicar('b2')"></button>
+    <button id="b3" class="botao" onclick="clicar('b3')"></button>
+    </div>
+    <div id="meio">
+    <button id="b4" class="botao" onclick="clicar('b4')"></button>
+    <button id="b5" class="botao" onclick="clicar('b5')"></button>
+    <button id="b6" class="botao" onclick="clicar('b6')"></button>
+    </div>
+    <div id="baixo">
+    <button id="b7" class="botao" onclick="clicar('b7')"></button>
+    <button id="b8" class="botao" onclick="clicar('b8')"></button>
+    <button id="b9" class="botao" onclick="clicar('b9')"></button>
+    </div>
+    </div>
+    <div id="underGame">
+    <p id="jogadorDaVez"></p>
+    <p id="winner"></p>
+    <button onclick = "playAgain()" id="jogarNovamente">Jogar Novamente</button>
+    
+    </div> 
+    <script src="./jogoDaVelha.js"></script>
+</body>
+</html>
