@@ -15,7 +15,6 @@ body{
     flex-direction: column;
     background-color:white ;
 }
-
 .botao{
     height:7rem ;
     width: 7rem;
@@ -28,9 +27,7 @@ body{
     
     
 }
-.botao:hover{
-    background-color: rgb(224, 224, 224);
-}
+
 #geral{
     height: 21rem;
     width: 21rem;
